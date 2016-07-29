@@ -107,14 +107,15 @@ class Timer(object):
 
 
 def main():
+    sys.argv =["hi","bi","blah"]
     if len(sys.argv) != 3:
         sys.stderr.write('Error: wrong number of arguments.\n')
         sys.stderr.write(
             'Usage: %s <corpus path> <model path>\n' % (sys.argv[0],))
         return 1
     logging.basicConfig(level=logging.INFO, format=LOGGING_FORMAT)
-    text = get_soap_data(sys.argv[1])
-    embedding = _get_w2v_embedding(sys.argv[2])
+    text = get_soap_data(sys.argv[1]) #soap directory
+    embedding = _get_w2v_embedding(sys.argv[2]) #embedding location
     data = pandas.DataFrame()
     data["Transcript"] = text[0:200000]
 

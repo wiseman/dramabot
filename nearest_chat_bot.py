@@ -77,7 +77,7 @@ def _get_w2v_embedding(name=None):
 def quick_save(name, embedded_data):
     pickle.dump(embedded_data, open(name + ".p", "wb"))
     result = pickle.load(open(name + ".p", "rb"))
-
+print "OK"
 
 LOGGING_FORMAT = ('%(threadName)s:%(asctime)s:%(levelname)s:%(module)s:'
                   '%(lineno)d %(message)s')

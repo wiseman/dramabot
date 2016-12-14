@@ -79,8 +79,8 @@ def quick_save(name, embedded_data):
     result = pickle.load(open(name + ".p", "rb"))
 print "OK"
 
-LOGGING_FORMAT = ('%(threadName)s:%(asctime)s:%(levelname)s:%(module)s:'
-                  '%(lineno)d %(message)s')
+#LOGGING_FORMAT = ('%(threadName)s:%(asctime)s:%(levelname)s:%(module)s:'
+ #                 '%(lineno)d %(message)s')
 
 
 def average_vectors(vecs, embedding):

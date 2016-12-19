@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#Data folder 
+Data/
+
 # Distribution / packaging
 .Python
 env/

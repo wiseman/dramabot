@@ -1,1 +1,13 @@
 
+Variation - look at relationship of response and statement to semantic similarity of related children
+
+Code structure naive*
+    Naive Approach
+        data
+        embedding
+        logger
+
+        _getClosest()
+
+        respond (bestResponse, return_closestMatch=False)
+

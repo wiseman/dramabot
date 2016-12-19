@@ -3,7 +3,7 @@ Twitter bot that responds dramatically, like a character in a soap opera.
 
 
 /Data:
-    Contains relevant soap data and embeddings
+    Contains relevant soap data - unzip to use
     I recommend google news w2v model for your embedding: https://code.google.com/archive/p/word2vec/
     You can also use the soap data and retrain a smaller model. Check out gensim for more details to do so.
 
